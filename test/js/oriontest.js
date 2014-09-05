@@ -19,6 +19,7 @@ define(["../../src/js/orion/OrionObject","../../src/js/orion/Car"], function (Or
       var orion = new OrionObject();
       var car = new Car(orion);
       expect(car.owner).toBe(orion);
+
     });
 
   });
