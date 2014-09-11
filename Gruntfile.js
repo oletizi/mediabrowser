@@ -38,6 +38,21 @@ module.exports = function(grunt) {
       }
     },
 
+    karma: {
+      options: {
+        configFile: 'karma.config.js'
+      },
+
+      // starts the karma server and watches for changed files, running tests on every change
+      continuous: {},
+
+      // one-time test run
+      test: {
+        singleRun: true,
+        browsers: ['PhantomJS']
+      }
+    },
+
     clean: {
       dist: ["dist/", "doc/"]
     }
@@ -47,7 +62,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-clean');
-  grunt.registerTask('default', ['clean', 'jsdoc', 'concat', 'uglify']);
+  grunt.loadNpmTasks('grunt-karma');
+  grunt.registerTask('default', ['clean', 'karma:test', 'jsdoc', 'concat', 'uglify']);
   grunt.registerTask('dist', ['default']);
 };
 

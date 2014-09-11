@@ -21,5 +21,9 @@ define(["../../../src/js/orion/OrionObject", "../../../src/js/orion/Car"], funct
       expect(car.owner).toBe(orion);
     });
 
+    it ("fails", function() {
+      expect("true").toBe("false");
+    });
+
   });
 });
