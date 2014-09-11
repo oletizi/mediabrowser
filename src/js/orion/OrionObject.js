@@ -1,8 +1,15 @@
 /**
- * Created by orion on 9/4/14.
+ * OrionObject--testing OO patterns in JavaScript
  */
 'use strict';
+/**
+ * define the durned thing
+ */
 define(function () {
+  /**
+   * Yeehaw!
+   * @constructor
+   */
   function OrionObject() {
     this.name = "Orion";
     this.isTrue = function() { return true; };
