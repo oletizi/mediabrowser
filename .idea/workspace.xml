@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e500e085-4631-452f-bf29-4908ab0a47ec" name="Default" comment="added a test target to grunt that runs karma">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/js/orion/oriontest.js" afterPath="$PROJECT_DIR$/test/js/orion/oriontest.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+    <list default="true" id="e500e085-4631-452f-bf29-4908ab0a47ec" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nodetest2.iws" />
@@ -312,7 +309,11 @@
       <created>1410477499112</created>
       <updated>1410477499112</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added a test target to grunt that runs karma">
+      <created>1410478907068</created>
+      <updated>1410478907068</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
