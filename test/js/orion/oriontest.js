@@ -1,5 +1,5 @@
 'use strict';
-define(["../../../src/js/orion/OrionObject", "../../../src/js/orion/Car"], function (OrionObject, Car) {
+define(["src/js/orion/OrionObject", "src/js/orion/Car"], function (OrionObject, Car) {
   describe("a simple test suite.", function () {
 
 
@@ -19,10 +19,6 @@ define(["../../../src/js/orion/OrionObject", "../../../src/js/orion/Car"], funct
       var orion = new OrionObject();
       var car = new Car(orion);
       expect(car.owner).toBe(orion);
-    });
-
-    it ("fails", function() {
-      expect("true").toBe("false");
     });
 
   });

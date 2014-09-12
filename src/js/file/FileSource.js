@@ -7,7 +7,7 @@
 define(function() {
 
   function FileSource() {
-
+    this.getFilesAsList = function() { return null; };
   }
   return FileSource;
 });
